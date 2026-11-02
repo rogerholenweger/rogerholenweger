@@ -18,13 +18,13 @@ block, ages, incomes, genders.
 **NoMagic Asia, 2008-2012.** BPMN 2.0 modelling, BPMN to XPDL translation,
 Cameo DataHub serialisation.
 
-**Since 2025.** Agentic tooling and evaluation for AI systems. Rust only as
+**Since 2025.** Agentic tooling and evaluation for AI systems. nanotoll, a
+production service: 17 Rust crates, about 51,000 lines, 847 tests. Rust as
 agent-directed work: I specify, review, and verify at the test level.
 
 ## Languages
 
-Python since 2002. Java in production 2008-2012. SQL, bash and Linux daily. Rust
-read and reviewed, not hand-written.
+Python since 2002. Java in production 2008-2012. SQL, bash and Linux daily.
 
 ## Looking for
 
