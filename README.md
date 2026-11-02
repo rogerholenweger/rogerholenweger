@@ -1,16 +1,14 @@
-## Hi there 👋
+    # Roger Holenweger
 
-<!--
-**rogerholenweger/rogerholenweger** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    Backend and data systems, based in Bangkok. Python since 2002, Java in
+    production from 2008, and agent-directed Rust for small tools.
 
-Here are some ideas to get you started:
+    Most of my work has been the unglamorous layer: ETL pipelines above 1 TB a
+    day, GeoJSON and demographic models, billing flows, evaluation harnesses for
+    AI systems. I care about output that can be checked, not claimed.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    Currently looking for remote work on backend services, data pipelines, or
+    evaluation and tooling for AI systems.
+
+    Contact: roger.holenweger@proton.me
+
