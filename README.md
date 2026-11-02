@@ -1,14 +1,34 @@
-    # Roger Holenweger
+# Roger Holenweger
 
-    Backend and data systems, based in Bangkok. Python since 2002, Java in
-    production from 2008, and agent-directed Rust for small tools.
+Backend and data engineering. Bangkok, UTC+07. Remote.
 
-    Most of my work has been the unglamorous layer: ETL pipelines above 1 TB a
-    day, GeoJSON and demographic models, billing flows, evaluation harnesses for
-    AI systems. I care about output that can be checked, not claimed.
+Most of my career has gone into the layer a product stands on: pipelines that
+move a terabyte a day without losing a row, billing that has to add up, and
+evaluation harnesses that decide whether an output is good enough to ship.
 
-    Currently looking for remote work on backend services, data pipelines, or
-    evaluation and tooling for AI systems.
+## What I have built
 
-    Contact: roger.holenweger@proton.me
+**CITYDATA.ai / CitySDK, 2015-2025.** Location intelligence on a graph database:
+Neo4j modelling, geo-temporal correlation, matching human-submitted addresses to
+geolocated values, building trajectories inside virtual maps. Wrote the Linux and
+bash ETL that processed over 1 TB a day and inferred a 20-million-person
+population distribution for New York City from public census data: households by
+block, ages, incomes, genders.
 
+**NoMagic Asia, 2008-2012.** BPMN 2.0 modelling, BPMN to XPDL translation,
+Cameo DataHub serialisation.
+
+**Since 2025.** Agentic tooling and evaluation for AI systems. Rust only as
+agent-directed work: I specify, review, and verify at the test level.
+
+## Languages
+
+Python since 2002. Java in production 2008-2012. SQL, bash and Linux daily. Rust
+read and reviewed, not hand-written.
+
+## Looking for
+
+Remote backend, data or evaluation work. Contract or employment, three to four
+days a week.
+
+roger.holenweger@proton.me
