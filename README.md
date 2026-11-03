@@ -39,8 +39,6 @@ exploring; an LLM decided whether two records were the same company before mergi
 nodes. That last decision is why it stopped: a confident merge you cannot audit
 gets inherited by everything downstream. Pitched to investors, no reply.
 
-All four are private. I will walk through any of them.
-
 ## Before that
 
 **CITYDATA.ai / CitySDK, 2015-2025.** Location intelligence on a graph database:
@@ -70,7 +68,7 @@ work, described above.
 
 Async contract work, 20-40 hours a week, three to four days. Backend and data,
 evaluation harnesses, graph work, model training. I invoice as an individual from
-Thailand, in USD. Not a leadership role, and no relocation.
+Thailand, in USD. Not a leadership role.
 
 [roger.holenweger@proton.me](mailto:roger.holenweger@proton.me)
 [linkedin.com/in/roger-holenweger](https://www.linkedin.com/in/roger-holenweger)
