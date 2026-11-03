@@ -5,7 +5,7 @@ Systems engineer in Bangkok, UTC+7. Remote.
 Python since 2002, Java 2008-2012, Rust since 2025 by specification. I decide
 what goes into a system and what has to be true of it; a coding agent writes the
 code and the tests; the compiler, the strict lints and the suite decide whether
-it ships. I have not hand-written Rust.
+it ships.
 
 ## 2025 to now, self-funded
 
