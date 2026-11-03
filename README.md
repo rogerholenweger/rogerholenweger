@@ -73,3 +73,4 @@ evaluation harnesses, graph work, model training. I invoice as an individual fro
 Thailand, in USD. Not a leadership role, and no relocation.
 
 [roger.holenweger@proton.me](mailto:roger.holenweger@proton.me)
+[linkedin.com/in/roger-holenweger](https://www.linkedin.com/in/roger-holenweger)
