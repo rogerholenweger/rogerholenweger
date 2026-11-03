@@ -41,7 +41,7 @@ gets inherited by everything downstream. Pitched to investors, no reply.
 
 ## Before that
 
-**CitySDK / CITYDATA.ai, 2015-2025** - one company, renamed while I was there. Location intelligence on a graph database:
+**CityDATA.ai (formerly CitySDK), 2015-2025.** Location intelligence on a graph database:
 Neo4j modelling, geo-temporal correlation, matching human-submitted addresses to
 geolocated values, building trajectories inside virtual maps. Wrote the Linux and
 bash ETL that processed over 1 TB a day and inferred a 20-million-person
