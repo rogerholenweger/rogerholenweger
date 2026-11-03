@@ -9,8 +9,7 @@ it ships. I have not hand-written Rust.
 
 ## 2025 to now, self-funded
 
-Four systems. One in production, three stopped at measured walls and written up
-as such, which is cheaper than pretending they did not happen.
+Four systems. One in production; three stopped at a measured wall.
 
 **nanotoll** - a Rust service that compresses LLM payloads at a fixed price per
 call, by mode. 17 crates, about 51,000 lines, 847 test functions, byte-identical
