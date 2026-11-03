@@ -1,6 +1,6 @@
 # Roger Holenweger
 
-Systems engineer in Bangkok, UTC+7. Remote.
+Systems engineer in Bangkok, UTC+7. Remote. Swiss national, open to Switzerland.
 
 Python since 2002, Java 2008-2012, Rust since 2025 by specification. I decide
 what goes into a system and what has to be true of it; a coding agent writes the
