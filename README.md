@@ -72,5 +72,5 @@ Async contract work, 20-40 hours a week, three to four days. Backend and data,
 evaluation harnesses, graph work, model training. I invoice as an individual from
 Thailand, in USD. Not a leadership role, and no relocation.
 
-roger.holenweger@proton.me
-linkedin.com/in/rogerholenweger
+[roger.holenweger@proton.me](mailto:roger.holenweger@proton.me)
+[linkedin.com/in/rogerholenweger](https://www.linkedin.com/in/rogerholenweger)
