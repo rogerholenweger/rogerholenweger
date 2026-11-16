@@ -3,10 +3,15 @@
 Systems engineer in Bangkok, UTC+7. Full-time in Thailand from December 2026,
 or part-time async contract work for remote employers. Swiss national.
 
-Python since 2002, Java 2008-2012, Rust since 2025 by specification. I decide
-what goes into a system and what has to be true of it; a coding agent writes the
-code and the tests; I review, comment and measure what it produces; the compiler,
-the strict lints and the suite decide whether it ships.
+Python since 2002, Java 2008-2012, Rust since 2025 by specification. Since 2025 I
+have built data pipelines at the scale of tens of millions of records, trained
+graph-attention and neuroevolution models, and shipped one production service, on
+current tools: PyTorch, Weaviate, Memgraph, Haystack, DSPy, Rust, MCP.
+
+I decide what goes into a system and what has to be true of it; a coding agent,
+run in Hermes Agent, writes the code and the tests; I review, comment and measure
+what it produces; the compiler, the strict lints and the suite decide whether it
+ships.
 
 ## 2025 to now, self-funded
 
@@ -67,7 +72,7 @@ transformation, Cameo DataHub serialisation.
 ## Toolbox
 
 Python (PyTorch, pandas, numpy, Pydantic), Java, SQL, Neo4j, Memgraph, Weaviate,
-Docker, Linux and bash, AWS, GCP, RunPod, Hetzner, Netcup. Rust as agent-directed
+Haystack, DSPy, MCP, Docker, Linux and bash, AWS, GCP, RunPod, Hetzner, Netcup. Rust as agent-directed
 work, described above.
 
 ## Looking for
