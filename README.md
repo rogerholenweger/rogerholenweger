@@ -12,34 +12,38 @@ the strict lints and the suite decide whether it ships.
 
 Four systems. One in production since October 2026; three stopped at a measured wall.
 
-**nanotoll** (June to October 2026, live since October 2026) - a Rust service that compresses LLM payloads at a fixed price per
+**nanotoll** (July to October 2026, live since October 2026) - a Rust service that compresses LLM payloads at a fixed price per
 call, by mode. 17 crates, about 51,000 lines, 854 test functions, byte-identical
 output across six parallel worker profiles. Metered billing: HTTP 402 challenge,
 credit ledger in SQLite/WAL, USDC deposits on Base credited at 12 confirmations.
-Each request returns a 20-field Ed25519-signed receipt, so a caller can prove what
+Each request returns an Ed25519-signed receipt (20 fields in verified mode), so a caller can prove what
 was done to their payload without trusting the operator. MCP server for agent
 runtimes; the 30 s p95 ceiling is held by an admission gate sized to a measured
 latency curve, not to an opinion.
 
-**chesig** (March to June 2026) - chess models trained on 3M grandmaster games, 50 million positions:
-GNN and deep learning pipelines on rented GPUs, Haystack with LLMs turning the
-positional features detected in a position into human-readable commentary, and a
-Weaviate RAG to find similar positions. Stopped at a scaling wall above 200 GB of
-RAM.
+**chesig** (December 2025 to April 2026) - chess models trained on 3M grandmaster games:
+an 8-block graph-attention network (GATv2) over the board graph. 50 million
+positions baked into fingerprint hashes for Weaviate on a rented RunPod RTX 4090.
+A Haystack pipeline combines a UCI engine, the network, Weaviate neighbours and
+Memgraph history, and an LLM turns the positional features found in a position into
+commentary. Stopped when the Postgres, Memgraph and Weaviate stores, configured at
+over 240 GB of RAM, still ran at 100% and the cost passed my budget.
 
-**Alpha Foundry** (December 2025 to March 2026) - a NEAT graph grown from features extracted from candle data
-and indicators, rewired by evolutionary computation. Features clustered by
-correlation, one survivor per cluster by recursive elimination, then a boosted
-ranking that keeps twelve of them for each walk-forward window; Bayesian
-hyperparameter search. Stopped when the viability gate found no out-of-sample
-edge. That is an answer, so I stopped.
+**KCE** (September to December 2025) - a due-diligence knowledge graph on Memgraph
+and Weaviate, built from GLEIF, ICIJ, OpenSanctions and Wikidata (over 13 million
+nodes), plus a DSPy crawler that extracted triplets from search results, with a
+priority queue choosing which entities to expand. A GNN scored entity risk, and a
+Haystack query engine turned questions into Cypher. Matching crawled entities to
+existing nodes with high confidence was not solved: embeddings and fuzzy matching
+left duplicates that had to be merged by hand, and a wrong merge is inherited by
+everything downstream. Pitched to Southeast Asian VCs, no reply.
 
-**KCE** (August to December 2025) - a neurosymbolic corporate due-diligence knowledge graph on Memgraph and Weaviate,
-built from GLEIF, ICIJ, SEC and OpenWiki data, plus a crawler that pulled nodes and
-edges out of search results. An agent decided which parts of the graph were worth
-exploring; an LLM decided whether two records were the same company before merging
-nodes. That merge could not be audited, and a wrong merge is inherited by
-everything downstream, so I stopped. Pitched to Southeast Asian VCs, no reply.
+**Alpha Foundry** (July to September 2025) - a NEAT graph grown from features
+extracted from candle data and indicators, rewired by evolutionary computation.
+Features clustered by correlation, one survivor per cluster by recursive
+elimination, then a boosted ranking that keeps twelve of them for each walk-forward
+window; Bayesian hyperparameter search. Stopped when the viability gate found no
+out-of-sample edge. That is an answer, so I stopped.
 
 ## Before that
 
