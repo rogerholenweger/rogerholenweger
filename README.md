@@ -1,6 +1,7 @@
 # Roger Holenweger
 
-Systems engineer in Bangkok, UTC+7. Remote. Swiss national, open to Switzerland.
+Systems engineer in Bangkok, UTC+7. Full-time in Thailand from December 2026,
+and async contract work alongside. Swiss national.
 
 Python since 2002, Java 2008-2012, Rust since 2025 by specification. I decide
 what goes into a system and what has to be true of it; a coding agent writes the
@@ -12,7 +13,7 @@ it ships.
 Four systems. One in production; three stopped at a measured wall.
 
 **nanotoll** - a Rust service that compresses LLM payloads at a fixed price per
-call, by mode. 17 crates, about 51,000 lines, 847 test functions, byte-identical
+call, by mode. 17 crates, about 51,000 lines, 854 test functions, byte-identical
 output across six parallel worker profiles. Metered billing: HTTP 402 challenge,
 credit ledger in SQLite/WAL, USDC deposits on Base credited at 12 confirmations.
 Each request returns a 20-field Ed25519-signed receipt, so a caller can prove what
@@ -27,12 +28,13 @@ ranking that keeps twelve of them for each walk-forward window; Bayesian
 hyperparameter search. Stopped when the viability gate found no out-of-sample
 edge. That is an answer, so I stopped.
 
-**chesig** - chess models trained on 3M grandmaster games: GNN and deep learning
-pipelines on rented GPUs, and Haystack with LLMs turning the positional features
-detected in a position into human-readable commentary. Stopped at a scaling wall
-above 200 GB of RAM.
+**chesig** - chess models trained on 3M grandmaster games, 50 million positions:
+GNN and deep learning pipelines on rented GPUs, Haystack with LLMs turning the
+positional features detected in a position into human-readable commentary, and a
+Weaviate RAG to find similar positions. Stopped at a scaling wall above 200 GB of
+RAM.
 
-**KCE** - a corporate due-diligence knowledge graph on Memgraph and Weaviate,
+**KCE** - a neurosymbolic corporate due-diligence knowledge graph on Memgraph and Weaviate,
 built from GLEIF, ICIJ, SEC and OpenWiki data, plus a crawler that pulled nodes and
 edges out of search results. An agent decided which parts of the graph were worth
 exploring; an LLM decided whether two records were the same company before merging
@@ -66,9 +68,11 @@ work, described above.
 
 ## Looking for
 
-Async contract work, 20-40 hours a week, three to four days. Backend and data,
-evaluation harnesses, graph work, model training. I invoice as an individual from
-Thailand, in USD. Not a leadership role.
+Full-time work in Thailand from December 2026: backend and data engineering, data
+pipelines, evaluation harnesses, graph work. Not a leadership role.
+
+Async contract work alongside, 20-40 hours a week over three or four days. I
+invoice as an individual from Thailand, in USD.
 
 [roger.holenweger@proton.me](mailto:roger.holenweger@proton.me)
 [linkedin.com/in/roger-holenweger](https://www.linkedin.com/in/roger-holenweger)
